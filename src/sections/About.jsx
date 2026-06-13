@@ -177,7 +177,7 @@ export default function About() {
             {/* Resume Download */}
             <div className="reveal">
               <a
-                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                href={`${import.meta.env.BASE_URL}CV.pdf`}
                 download
                 className="group flex w-full items-center justify-center gap-2 rounded-xl border-2 border-dashed border-light-border px-6 py-4 text-sm font-semibold text-light-text-secondary transition-all duration-300 hover:border-accent-500 hover:text-accent-500 dark:border-dark-border dark:text-dark-text-secondary dark:hover:border-accent-400 dark:hover:text-accent-400"
               >
