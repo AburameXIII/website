@@ -1,5 +1,4 @@
-import { ArrowDown, Mail } from 'lucide-react';
-import { GitHubIcon, LinkedInIcon } from '../components/Icons';
+import { ArrowDown } from 'lucide-react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export default function Hero() {
@@ -37,7 +36,10 @@ export default function Hero() {
       <div className="relative z-10 mx-auto max-w-3xl text-center">
         {/* Status Badge */}
         <div className="reveal mb-8 inline-flex items-center gap-2 rounded-full border border-accent-500/30 bg-accent-500/10 px-4 py-1.5">
-          <span className="text-sm">🎰</span>
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+          </span>
           <span className="text-xs font-medium text-accent-500 dark:text-accent-400">
             Crafting immersive gaming experiences
           </span>
@@ -76,46 +78,8 @@ export default function Hero() {
               className="transition-transform duration-300 group-hover:translate-y-0.5"
             />
           </a>
-          <a
-            href="#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            className="inline-flex items-center gap-2 rounded-xl border border-light-border px-6 py-3 text-sm font-semibold text-light-text transition-all duration-300 hover:border-accent-500 hover:text-accent-500 dark:border-dark-border dark:text-dark-text dark:hover:border-accent-400 dark:hover:text-accent-400"
-          >
-            Get In Touch
-          </a>
         </div>
 
-        {/* Social Links */}
-        <div className="reveal reveal-delay-4 flex items-center justify-center gap-3">
-          <a
-            href="https://github.com/AburameXIII"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-10 w-10 items-center justify-center rounded-lg border border-light-border text-light-text-secondary transition-all duration-200 hover:border-accent-500 hover:text-accent-500 dark:border-dark-border dark:text-dark-text-secondary dark:hover:border-accent-400 dark:hover:text-accent-400"
-            aria-label="GitHub"
-          >
-            <GitHubIcon size={18} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/daniel-brandao-9309b9153"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-10 w-10 items-center justify-center rounded-lg border border-light-border text-light-text-secondary transition-all duration-200 hover:border-accent-500 hover:text-accent-500 dark:border-dark-border dark:text-dark-text-secondary dark:hover:border-accent-400 dark:hover:text-accent-400"
-            aria-label="LinkedIn"
-          >
-            <LinkedInIcon size={18} />
-          </a>
-          <a
-            href="mailto:daniffb_29@hotmail.com"
-            className="flex h-10 w-10 items-center justify-center rounded-lg border border-light-border text-light-text-secondary transition-all duration-200 hover:border-accent-500 hover:text-accent-500 dark:border-dark-border dark:text-dark-text-secondary dark:hover:border-accent-400 dark:hover:text-accent-400"
-            aria-label="Email"
-          >
-            <Mail size={18} />
-          </a>
-        </div>
       </div>
 
       {/* Scroll Indicator */}

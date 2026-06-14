@@ -15,12 +15,6 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between">
           {/* Brand */}
           <div className="flex items-center gap-2">
-            <span className="flex h-7 w-7 items-center justify-center rounded-md bg-accent-500 text-xs font-black text-white">
-              D
-            </span>
-            <span className="text-sm font-semibold text-light-text dark:text-dark-text">
-              Daniel
-            </span>
           </div>
 
           {/* Social Links */}
@@ -41,7 +35,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="flex items-center gap-1 text-xs text-light-text-secondary dark:text-dark-text-secondary">
-            © {currentYear} Daniel
+            © {currentYear} Daniel Brandao
           </p>
         </div>
       </div>

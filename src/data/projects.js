@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: 'Big Bamboo',
     description:
-      'My first game at Push Gaming from scratch. An Asian-inspired, zen-like slot featuring a 5x6 grid with 50 paylines. Built with high volatility mechanics, featuring Mystery Bamboo Symbols, instant prizes, multipliers, and a Golden Bamboo feature with a max win potential of 50,000x.',
+      'A zen-like slot featuring a 5x6 grid with 50 paylines. Built with high volatility mechanics, featuring Mystery Bamboo Symbols, instant prizes, multipliers, and a Golden Bamboo feature with a max win potential of 50,000x.',
     image: 'https://www.pushgaming.com//uploads/Big%20Bamboo/Big-Bamboo_preview2.jpg',
     techStack: ['JavaScript', 'PixiJS', 'Spine', 'WebGL'],
     githubUrl: null,
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     id: 5,
-    title: 'ReLive - Global Game Jam',
+    title: 'ReLive - Global Game Jam 2020',
     description:
       'A game about lost love, broken spirit and sad memories. The character dives into his inner self to face memories and recover his will to live. Built for Global Game Jam 2020.',
     image: 'https://img.youtube.com/vi/DEUlttg8dEs/hqdefault.jpg',
