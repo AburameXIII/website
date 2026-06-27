@@ -83,5 +83,9 @@ export const skills = [
   { name: 'CI/CD', category: 'devops' },
   { name: 'Agile/Scrum', category: 'devops' },
   { name: 'ClickUp', category: 'devops' },
-  { name: 'Jira', category: 'devops' }
+  { name: 'Jira', category: 'devops' },
+  { name: 'Docker/Podman', category: 'devops' },
+  { name: 'Claude', category: 'ai' },
+  { name: 'Gemini', category: 'ai' },
+  { name: 'Github Copilot', category: 'ai' }
 ];

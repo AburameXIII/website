@@ -20,8 +20,7 @@ export default function Projects() {
           Featured Projects
         </h2>
         <p className="reveal reveal-delay-2 mx-auto max-w-xl text-base text-light-text-secondary dark:text-dark-text-secondary">
-          From high-performance slot games to personal passion projects — here's a
-          selection of work I'm proud of.
+          From slot games to personal projects — here's a curated selection of my work.
         </p>
       </div>
 

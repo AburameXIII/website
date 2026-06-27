@@ -14,6 +14,7 @@ const categoryLabels = {
   backend: 'Backend',
   devops: 'DevOps',
   gamedevelopment: 'Game Development',
+  ai: 'AI Tools'
 };
 
 const categoryColors = {
@@ -22,6 +23,7 @@ const categoryColors = {
   backend: 'bg-emerald-500/10 text-emerald-500 dark:text-emerald-400',
   devops: 'bg-orange-500/10 text-orange-500 dark:text-orange-400',
   gamedevelopment: 'bg-red-500/10 text-red-500 dark:text-red-400',
+  ai: 'bg-yellow-500/10 text-yellow-500 dark:text-yellow-400',
 };
 
 function TimelineItem({ item, isExperience = true }) {
